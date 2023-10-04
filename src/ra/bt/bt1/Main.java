@@ -9,6 +9,8 @@ public class Main {
         Queue<Integer>queue = new LinkedList<>();
         for (int i = 0; i <10 ; i++) {
             queue.offer((int) (Math.random()*10));
+
+            System.out.println(queue.element());
         }
         System.out.println(queue);
     }
